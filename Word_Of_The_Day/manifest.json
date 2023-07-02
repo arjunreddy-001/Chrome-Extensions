@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Word Of The Day",
+  "version": "1.0.0",
+  "description": "Expand your mind with a word of the day",
+  "chrome_url_overrides": {
+    "newtab": "newtab.html"
+  },
+  "host_permissions": ["https://api.quotable.io/"],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
