@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Background Music",
+  "version": "1.0.0",
+  "description": "Plays selected music in background",
+  "background": {
+    "service_worker": "worker.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Background Music"
+  },
+  "permissions": ["offscreen"]
+}
